@@ -149,7 +149,7 @@ if __name__ == '__main__':
     best_val = -1
     best_val_test = None
     # lmbdas = 10. ** np.arange(0, -9, -1)
-    lmbdas = 10. ** np.arange(args.start_lmbda, -8, -1)
+    lmbdas = 10. ** np.arange(args.start_lmbda, -4, -1)
     accs_val = []
     accs = []
     for lmbda in lmbdas:
